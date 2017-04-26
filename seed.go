@@ -27,7 +27,7 @@ func (f SeedFunc) Seed() (int64, error) {
 
 // ConstantSeeder builds a SeedFunc that always returns seed.
 func ConstantSeeder(seed int64) SeedFunc {
-	return func() int64 { return seed }
+	return func() (int64, error) { return seed, nil }
 }
 
 // UnixNanoSeeder generates seeds with the current nanosecond epoch.
