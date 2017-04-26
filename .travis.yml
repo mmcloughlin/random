@@ -14,5 +14,5 @@ install:
 script:
   - glide install
   - gometalinter --vendor --config=gometalinter.json ./...
-  - overalls -project=github.com/mmcloughlin/random -- -v
+  - overalls -project=github.com/mmcloughlin/random -- -race -v
   - goveralls -coverprofile=overalls.coverprofile -service=travis-ci
