@@ -6,3 +6,8 @@
 
 
 Utilities to complement Golang's `math/rand` package.
+
+* `Interface` to cover the methods of `rand.Rand`
+* Mock implementation of `Interface`
+* Locked implementation of `Interface`
+* Helpers for constructing implementations with different seeding methods
