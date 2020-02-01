@@ -1,6 +1,6 @@
 # random
 
-[![GoDoc Reference](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](http://godoc.org/github.com/mmcloughlin/random)
+[![go.dev Reference](https://img.shields.io/badge/doc-reference-007d9b?logo=go&style=flat-square)](https://pkg.go.dev/github.com/mmcloughlin/random)
 [![Build status](https://img.shields.io/travis/mmcloughlin/random.svg?style=flat-square)](https://travis-ci.org/mmcloughlin/random)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mmcloughlin/random?style=flat-square)](https://goreportcard.com/report/github.com/mmcloughlin/random)
 
